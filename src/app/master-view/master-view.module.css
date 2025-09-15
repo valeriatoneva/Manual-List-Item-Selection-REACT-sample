@@ -1,0 +1,22 @@
+.row-layout {
+  display: flex;
+}
+.master-view-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.list {
+  height: max-content;
+  flex-shrink: 0;
+}
+.avatar {
+  --ig-size: var(--ig-size-small);
+}
+.icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
